@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+krew-release-bot template \
+    --template-file=templates/kubectl-node-provider-id.yaml \
+    --tag=0.4.0 \
+    > plugins/kubectl-node-provider-id.yaml
