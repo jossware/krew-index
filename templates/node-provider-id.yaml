@@ -35,7 +35,11 @@ spec:
         arch: amd64
     {{addURIAndSha "https://github.com/jossware/kubectl-node-provider-id/releases/download/v{{ .TagName }}/kubectl-node-provider-id_{{ .TagName }}-win-amd64.zip" .TagName }}
     bin: "./kubectl-node-provider-id.exe"
-  shortDescription: List allocations per resources, nodes, pods.
+  shortDescription: kubectl plugin to more easily view Node provider IDs
   homepage: https://github.com/jossware/kubectl-node-provider-id
   description: |
-    kubectl plugin to view Node provider IDs
+    Sometimes you just need to know the instance ID of a node in your managed
+    Kubernetes cluster. Maybe you need it to correlate some observability data
+    or to use in another command or just for troubleshooting something. This
+    plugin just makes it slightly easier to get that information when you need
+    it.
