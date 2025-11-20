@@ -34,8 +34,6 @@
 
           subPackages = [ "cmd/action" ];
 
-          CGO_ENABLED = 0;
-
           ldflags = [
             "-s"
             "-w"
