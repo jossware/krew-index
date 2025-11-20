@@ -40,6 +40,5 @@ spec:
   description: |
     Sometimes you just need to know the instance ID of a node in your managed
     Kubernetes cluster. Maybe you need it to correlate some observability data
-    or to use in another command or just for troubleshooting something. This
-    plugin just makes it slightly easier to get that information when you need
-    it.
+    or to use in another command or just for troubleshooting. This plugin just
+    makes it slightly easier to get that information when you need it.
